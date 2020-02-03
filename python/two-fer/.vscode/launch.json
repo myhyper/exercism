@@ -8,7 +8,7 @@
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/hello_world_test.py",
+            "program": "${workspaceFolder}/two_fer_test.py",
             "console": "integratedTerminal"
         }
     ]
