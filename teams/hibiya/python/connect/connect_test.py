@@ -17,10 +17,6 @@ class ConnectTest(unittest.TestCase):
         winner = game.get_winner()
         self.assertEqual(winner, "")
 
-    def test_x_can_win_on_a_1x1_board(self):
-        game = ConnectGame("""X""")
-        winner = game.get_winner()
-        self.assertEqual(winner, "X")
 
     def test_o_can_win_on_a_1x1_board(self):
         game = ConnectGame("""O""")
